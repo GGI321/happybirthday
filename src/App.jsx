@@ -5,9 +5,18 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/aboutus/About';
 import Gallery from './components/gallery/Gallery';
+import  { useEffect } from "react";
+
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200, // Animation duration in milliseconds
+      once: true, // Ensures animation happens only once when scrolling down
+    });
+  }, []);
+  
   return (
     <Router>
       <Header />

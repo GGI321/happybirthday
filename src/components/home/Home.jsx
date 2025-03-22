@@ -45,43 +45,43 @@ function Home() {
        <div className="container py-3">
        <audio src={m1} autoPlay controls></audio>
        </div>
-       <div className="container">
+       <div className="container" data-aos="fade-up">
         <span>happy birthday achalaugo m, i love u so much, so much that words cant tell, u re the light of my world, my strenght wen i need motivation, my distraction wen i need something else and my peace (but na wen u want oooo, u no dey give peace anyhow)</span>
        </div>
-    <div className="howWeMet">
+    <div className="howWeMet" data-aos="fade-down">
         <div className="container py-3">
-            <span><p><b>him: </b> lets stop at Mr.biggs to get something</p></span>
-            <span><p><b>her: Aftr arguing nonchalantly agrees</b> ok</p></span>
-            <span><p><b>him: </b> so what would u like to eat?</p></span>
-            <span><p><b>her: </b> im fine thank you</p></span>
-            <span><p><b>him: after begging her to plase take something </b> ahhh its not nice na, we re just meeting, at least take something</p></span>
-            <span><p><b>her: </b> ok, id take ofada rice so my big mummy will eat along</p></span>
-            <span><p><b>him: who come be big mummy? </b> ok oo no wahala shah take something</p></span>
-            <span><p><b>him: looking at the wheather and seeing that rain is about dropping was very happy</b> ahhhh rain don dey fall o, make we just sit down talk</p></span>
-            <span><p><b>after sitting down </b> </p></span>
-            <span><p><b>him: </b> hello</p></span>
-            <span><p><b>her: </b> hi</p></span>
-            <span><p><b>him: </b> Emeka said u were a beautiful girl and i think he was wrong</p></span>
-            <span><p><b>her: already thinking "is this guy here to insult me?</b> What?</p></span>
-            <span><p><b>him: </b> yes i think he was wrong</p></span>
-            <span><p><b>her: already feeling embarrased</b> keeping quiet and rolling eyes</p></span>
-            <span><p><b>him: </b> yes i think u looked more prettier than i was told, ur beauty is simply charming </p></span>
-            <span><p><b>her: with a heavy sigh of relief and that smile that drives me crazy</b> thank u</p></span>
-            <span><p><b>him: </b> so my angel, where re u from</p></span>
-            <span><p><b>her: </b> from enugu my mum from Abia</p></span>
-            <span><p><b>him: </b> thats beautiful, im from anambra state</p></span>
-            <span><p><b>her: </b> this wont work, i dont like anambra boys, they re ritualist</p></span>
-            <span><p><b>him: knowing fully well that things re not going as planned, needed a plan B</b> hmmm dont worry my dear time shah tell</p></span>
-            <span><p><b>her: </b> ok oo</p></span>
-            <span><p><b>him: see this girl oo, for ur mind na say i go leave u abi?? just dey play</b> </p></span>
+            <span><p data-aos="fade-right"><b>him: </b> lets stop at Mr.biggs to get something</p></span>
+            <span><p data-aos="fade-right"><b>her: Aftr arguing nonchalantly agrees</b> ok</p></span>
+            <span><p data-aos="fade-right"><b>him: </b> so what would u like to eat?</p></span>
+            <span><p data-aos="fade-right"><b>her: </b> im fine thank you</p></span>
+            <span><p data-aos="fade-right"><b>him: after begging her to plase take something </b> ahhh its not nice na, we re just meeting, at least take something</p></span>
+            <span><p data-aos="fade-right"><b>her: </b> ok, id take ofada rice so my big mummy will eat along</p></span>
+            <span><p data-aos="fade-right"><b>him: who come be big mummy? </b> ok oo no wahala shah take something</p></span>
+            <span><p data-aos="fade-right"><b>him: looking at the wheather and seeing that rain is about dropping was very happy</b> ahhhh rain don dey fall o, make we just sit down talk</p></span>
+            <span><p data-aos="fade-right"><b>after sitting down </b> </p></span>
+            <span><p data-aos="fade-right"><b>him: </b> hello</p></span>
+            <span><p data-aos="fade-right"><b>her: </b> hi</p></span>
+            <span><p data-aos="fade-left"><b>him: </b> Emeka said u were a beautiful girl and i think he was wrong</p></span>
+            <span><p data-aos="fade-left"><b>her: already thinking "is this guy here to insult me?</b> What?</p></span>
+            <span><p data-aos="fade-left"><b>him: </b> yes i think he was wrong</p></span>
+            <span><p  data-aos="fade-left"><b>her: already feeling embarrased</b> keeping quiet and rolling eyes</p></span>
+            <span><p data-aos="fade-left"><b>him: </b> yes i think u looked more prettier than i was told, ur beauty is simply charming </p></span>
+            <span><p data-aos="fade-left"><b>her: with a heavy sigh of relief and that smile that drives me crazy</b> thank u</p></span>
+            <span><p data-aos="fade-left"><b>him: </b> so my angel, where re u from</p></span>
+            <span><p  data-aos="fade-left"><b>her: </b> from enugu my mum from Abia</p></span>
+            <span><p  data-aos="fade-left"><b>him: </b> thats beautiful, im from anambra state</p></span>
+            <span><p  data-aos="fade-left"><b>her: </b> this wont work, i dont like anambra boys, they re ritualist</p></span>
+            <span><p  data-aos="fade-left"><b>him: knowing fully well that things re not going as planned, needed a plan B</b> hmmm dont worry my dear time shah tell</p></span>
+            <span><p  data-aos="fade-left"><b>her: </b> ok oo</p></span>
+            <span><p  data-aos="fade-left"><b>him: see this girl oo, for ur mind na say i go leave u abi?? just dey play</b> </p></span>
         </div>
     </div>
     <div className="homepage d-flex flex-column justify-content-center align-items-center py-5">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180"><path fill="#0d6efd" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,42.7C384,32,480,32,576,58.7C672,85,768,139,864,154.7C960,171,1056,149,1152,133.3C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       <div className="text-center">
-        <h1 className="display-4">Happy Birthday, My Love! 🎉</h1>
-        <p className="lead">You are the most amazing person in my life, and today is all about you!</p>
-        <button className="btn btn-primary btn-lg mt-3" onClick={() => alert("Let's celebrate your special day! 🎂")}>
+        <h1 className="display-4" data-aos="flip-right" >Happy Birthday, My Love! 🎉</h1>
+        <p className="lead" data-aos="flip-right">You are the most amazing person in my life, and today is all about you!</p>
+        <button className="btn btn-primary btn-lg mt-3" data-aos="flip-left" onClick={() => alert("Let's celebrate your special day! 🎂")}>
           Explore Your Day
         </button>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#0d6efd" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,42.7C384,32,480,32,576,58.7C672,85,768,139,864,154.7C960,171,1056,149,1152,133.3C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
